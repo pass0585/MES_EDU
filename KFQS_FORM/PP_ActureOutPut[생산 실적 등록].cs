@@ -47,24 +47,24 @@ namespace KFQS_Form
         {
             #region ▶ GRID ◀
             _GridUtil.InitializeGrid(this.grid1, true, true, false, "", false);
-            _GridUtil.InitColumnUltraGrid(grid1, "PLANTCODE"        , "공장"                    , true, GridColDataType_emu.VarChar, 120, 120, Infragistics.Win.HAlign.Left, true, false);
-            _GridUtil.InitColumnUltraGrid(grid1, "ORDERNO"          , "작업지시 번호"           , true, GridColDataType_emu.VarChar, 140, 120, Infragistics.Win.HAlign.Left, true, false);
-            _GridUtil.InitColumnUltraGrid(grid1, "ITEMCODE"         , "품목 코드"               , true, GridColDataType_emu.VarChar, 140, 120, Infragistics.Win.HAlign.Left, true, false);
-            _GridUtil.InitColumnUltraGrid(grid1, "PLANQTY"          , "계획수량"                , true, GridColDataType_emu.Double, 120, 120, Infragistics.Win.HAlign.Right, true, false);
-            _GridUtil.InitColumnUltraGrid(grid1, "PRODQTY"          , "양품수량"                , true, GridColDataType_emu.Double, 120, 120, Infragistics.Win.HAlign.Right, true, false);
-            _GridUtil.InitColumnUltraGrid(grid1, "BADQTY"           , "불량수량"                , true, GridColDataType_emu.Double, 100, 120, Infragistics.Win.HAlign.Right, true, false);
-            _GridUtil.InitColumnUltraGrid(grid1, "UNITCODE"         , "단위"                    , true, GridColDataType_emu.VarChar, 100, 120, Infragistics.Win.HAlign.Left, true, false);
-            _GridUtil.InitColumnUltraGrid(grid1, "MATLOTNO"         , "투입LOT"                 , true, GridColDataType_emu.VarChar, 100, 120, Infragistics.Win.HAlign.Left, true, false);
-            _GridUtil.InitColumnUltraGrid(grid1, "COMPONENT"        , "투입품목"                , true, GridColDataType_emu.VarChar, 100, 120, Infragistics.Win.HAlign.Left, true, false);
-            _GridUtil.InitColumnUltraGrid(grid1, "COMPONENTQTY"     , "투입양"                  , true, GridColDataType_emu.Double, 100, 120, Infragistics.Win.HAlign.Right, true, false);
-            _GridUtil.InitColumnUltraGrid(grid1, "CUNITCODE"        , "투입단위"                , true, GridColDataType_emu.VarChar, 100, 120, Infragistics.Win.HAlign.Left, true, false);
-            _GridUtil.InitColumnUltraGrid(grid1, "WORKCENTERCODE"   , "작업장"                  , true, GridColDataType_emu.VarChar, 100, 120, Infragistics.Win.HAlign.Left, true, false);
-            _GridUtil.InitColumnUltraGrid(grid1, "WORKSTATUS"       , "작업 상태"               , true, GridColDataType_emu.VarChar, 100, 120, Infragistics.Win.HAlign.Left, true, false);
-            _GridUtil.InitColumnUltraGrid(grid1, "WORKERNAME"       , "작업자명"                , true, GridColDataType_emu.VarChar, 100, 120, Infragistics.Win.HAlign.Left, true, false);
-            _GridUtil.InitColumnUltraGrid(grid1, "WORKSTATUSCODE"   , "작업 상태"               , true, GridColDataType_emu.VarChar, 100, 120, Infragistics.Win.HAlign.Left, true, false);
-            _GridUtil.InitColumnUltraGrid(grid1, "WORKER"           , "작업자"                  , true, GridColDataType_emu.VarChar, 100, 120, Infragistics.Win.HAlign.Left, true, false);
-            _GridUtil.InitColumnUltraGrid(grid1, "STARTDATE"        , "최초 가동 시작 시간"     , true, GridColDataType_emu.DateTime24, 100, 120, Infragistics.Win.HAlign.Left, true, false);
-            _GridUtil.InitColumnUltraGrid(grid1, "ENDDATE"          , "작업 상태 지시 종료 시간", true, GridColDataType_emu.DateTime24, 100, 120, Infragistics.Win.HAlign.Left, true, false);
+            _GridUtil.InitColumnUltraGrid(grid1, "PLANTCODE", "공장", true, GridColDataType_emu.VarChar, 120, 120, Infragistics.Win.HAlign.Left, true, false);
+            _GridUtil.InitColumnUltraGrid(grid1, "ORDERNO", "작업지시 번호", true, GridColDataType_emu.VarChar, 140, 120, Infragistics.Win.HAlign.Left, true, false);
+            _GridUtil.InitColumnUltraGrid(grid1, "ITEMCODE", "품목 코드", true, GridColDataType_emu.VarChar, 140, 120, Infragistics.Win.HAlign.Left, true, false);
+            _GridUtil.InitColumnUltraGrid(grid1, "PLANQTY", "계획수량", true, GridColDataType_emu.Double, 120, 120, Infragistics.Win.HAlign.Right, true, false);
+            _GridUtil.InitColumnUltraGrid(grid1, "PRODQTY", "양품수량", true, GridColDataType_emu.Double, 120, 120, Infragistics.Win.HAlign.Right, true, false);
+            _GridUtil.InitColumnUltraGrid(grid1, "BADQTY", "불량수량", true, GridColDataType_emu.Double, 100, 120, Infragistics.Win.HAlign.Right, true, false);
+            _GridUtil.InitColumnUltraGrid(grid1, "UNITCODE", "단위", true, GridColDataType_emu.VarChar, 100, 120, Infragistics.Win.HAlign.Left, true, false);
+            _GridUtil.InitColumnUltraGrid(grid1, "MATLOTNO", "투입LOT", true, GridColDataType_emu.VarChar, 100, 120, Infragistics.Win.HAlign.Left, true, false);
+            _GridUtil.InitColumnUltraGrid(grid1, "COMPONENT", "투입품목", true, GridColDataType_emu.VarChar, 100, 120, Infragistics.Win.HAlign.Left, true, false);
+            _GridUtil.InitColumnUltraGrid(grid1, "COMPONENTQTY", "투입양", true, GridColDataType_emu.Double, 100, 120, Infragistics.Win.HAlign.Right, true, false);
+            _GridUtil.InitColumnUltraGrid(grid1, "CUNITCODE", "투입단위", true, GridColDataType_emu.VarChar, 100, 120, Infragistics.Win.HAlign.Left, true, false);
+            _GridUtil.InitColumnUltraGrid(grid1, "WORKCENTERCODE", "작업장", true, GridColDataType_emu.VarChar, 100, 120, Infragistics.Win.HAlign.Left, true, false);
+            _GridUtil.InitColumnUltraGrid(grid1, "WORKSTATUS", "작업 상태", true, GridColDataType_emu.VarChar, 100, 120, Infragistics.Win.HAlign.Left, true, false);
+            _GridUtil.InitColumnUltraGrid(grid1, "WORKERNAME", "작업자명", true, GridColDataType_emu.VarChar, 100, 120, Infragistics.Win.HAlign.Left, true, false);
+            _GridUtil.InitColumnUltraGrid(grid1, "WORKSTATUSCODE", "작업 상태", true, GridColDataType_emu.VarChar, 100, 120, Infragistics.Win.HAlign.Left, true, false);
+            _GridUtil.InitColumnUltraGrid(grid1, "WORKER", "작업자", true, GridColDataType_emu.VarChar, 100, 120, Infragistics.Win.HAlign.Left, true, false);
+            _GridUtil.InitColumnUltraGrid(grid1, "STARTDATE", "최초 가동 시작 시간", true, GridColDataType_emu.DateTime24, 100, 120, Infragistics.Win.HAlign.Left, true, false);
+            _GridUtil.InitColumnUltraGrid(grid1, "ENDDATE", "작업 상태 지시 종료 시간", true, GridColDataType_emu.DateTime24, 100, 120, Infragistics.Win.HAlign.Left, true, false);
             _GridUtil.SetInitUltraGridBind(grid1);
             #endregion
 
@@ -153,20 +153,20 @@ namespace KFQS_Form
             }
 
         }
-    
+
         /// <summary>
         /// ToolBar의 신규 버튼 클릭
         /// </summary>
         public override void DoNew()
         {
-            
+
         }
         /// <summary>
         /// ToolBar의 삭제 버튼 Click
         /// </summary>
         public override void DoDelete()
-        {   
-           
+        {
+
         }
         /// <summary>
         /// ToolBar의 저장 버튼 Click
@@ -184,14 +184,14 @@ namespace KFQS_Form
             DBHelper helper = new DBHelper("", true);
             try
             {
-                string sItemcode            = Convert.ToString(grid1.ActiveRow.Cells["ITEMCODE"].Value);
-                string sLotno               = Convert.ToString(txtInLotNo.Text);
-                string sWorkercenterCode    = Convert.ToString(grid1.ActiveRow.Cells["WORKCENTERCODE"].Value);
+                string sItemcode = Convert.ToString(grid1.ActiveRow.Cells["ITEMCODE"].Value);
+                string sLotno = Convert.ToString(txtInLotNo.Text);
+                string sWorkercenterCode = Convert.ToString(grid1.ActiveRow.Cells["WORKCENTERCODE"].Value);
 
-                string sOrderno             = Convert.ToString(grid1.ActiveRow.Cells["ORDERNO"].Value);
-                string sUnitCode            = Convert.ToString(grid1.ActiveRow.Cells["UNITCODE"].Value);
-                string sInFlag              = Convert.ToString(btnLotIn.Text);
-                string sWorker              = Convert.ToString(grid1.ActiveRow.Cells["WORKER"].Value);
+                string sOrderno = Convert.ToString(grid1.ActiveRow.Cells["ORDERNO"].Value);
+                string sUnitCode = Convert.ToString(grid1.ActiveRow.Cells["UNITCODE"].Value);
+                string sInFlag = Convert.ToString(btnLotIn.Text);
+                string sWorker = Convert.ToString(grid1.ActiveRow.Cells["WORKER"].Value);
 
 
                 if (sInFlag == "투입")
@@ -201,14 +201,14 @@ namespace KFQS_Form
                 else sInFlag = "OUT";
 
                 helper.ExecuteNoneQuery("11PP_ActureOutput_I1", CommandType.StoredProcedure,
-                                        helper.CreateParameter("PLANTCODE"      , "1000"            , DbType.String, ParameterDirection.Input)
-                                      , helper.CreateParameter("ITEMCODE"       , sItemcode         , DbType.String, ParameterDirection.Input)
-                                      , helper.CreateParameter("LOTNO"          , sLotno            , DbType.String, ParameterDirection.Input)
-                                      , helper.CreateParameter("WORKCENTERCODE" , sWorkercenterCode , DbType.String, ParameterDirection.Input)
-                                      , helper.CreateParameter("ORDERNO"        , sOrderno          , DbType.String, ParameterDirection.Input)
-                                      , helper.CreateParameter("UNITCODE"       , sUnitCode         , DbType.String, ParameterDirection.Input)
-                                      , helper.CreateParameter("INFLAG"         , sInFlag           , DbType.String, ParameterDirection.Input)
-                                      , helper.CreateParameter("MAKER"          , sWorker           , DbType.String, ParameterDirection.Input)
+                                        helper.CreateParameter("PLANTCODE", "1000", DbType.String, ParameterDirection.Input)
+                                      , helper.CreateParameter("ITEMCODE", sItemcode, DbType.String, ParameterDirection.Input)
+                                      , helper.CreateParameter("LOTNO", sLotno, DbType.String, ParameterDirection.Input)
+                                      , helper.CreateParameter("WORKCENTERCODE", sWorkercenterCode, DbType.String, ParameterDirection.Input)
+                                      , helper.CreateParameter("ORDERNO", sOrderno, DbType.String, ParameterDirection.Input)
+                                      , helper.CreateParameter("UNITCODE", sUnitCode, DbType.String, ParameterDirection.Input)
+                                      , helper.CreateParameter("INFLAG", sInFlag, DbType.String, ParameterDirection.Input)
+                                      , helper.CreateParameter("MAKER", sWorker, DbType.String, ParameterDirection.Input)
                                       );
 
                 helper.Commit();
@@ -278,7 +278,7 @@ namespace KFQS_Form
             {
                 helper.Close();
             }
-            
+
         }
 
         private void grid1_AfterRowActivate(object sender, EventArgs e)
@@ -291,7 +291,7 @@ namespace KFQS_Form
             else btnRunStop.Text = "가동";
 
             string sMatLotno = Convert.ToString(grid1.ActiveRow.Cells["MATLOTNO"].Value);
-            if(sMatLotno != "")
+            if (sMatLotno != "")
             {
                 txtInLotNo.Text = sMatLotno;
                 btnLotIn.Text = "투입취소";
@@ -301,8 +301,8 @@ namespace KFQS_Form
                 txtInLotNo.Text = "";
                 btnLotIn.Text = "투입";
             }
-            txtWorkerID.Text    = Convert.ToString(grid1.ActiveRow.Cells["WORKER"].Value);
-            txtWorkerName.Text  = Convert.ToString(grid1.ActiveRow.Cells["WORKERNAME"].Value);
+            txtWorkerID.Text = Convert.ToString(grid1.ActiveRow.Cells["WORKER"].Value);
+            txtWorkerName.Text = Convert.ToString(grid1.ActiveRow.Cells["WORKERNAME"].Value);
         }
 
         private void btnRunStop_Click(object sender, EventArgs e)
@@ -314,18 +314,168 @@ namespace KFQS_Form
                 string sStatus = "R";
                 if (btnRunStop.Text == "비가동") sStatus = "S";
                 helper.ExecuteNoneQuery("11PP_ActureOutput_U1", CommandType.StoredProcedure
-                                                                    , helper.CreateParameter("PLANTCODE"            , "1000"                                                                , DbType.String, ParameterDirection.Input)
-                                                                    , helper.CreateParameter("WORKCENTERCODE"       , Convert.ToString(this.grid1.ActiveRow.Cells["WORKCENTERCODE"].Value)  , DbType.String, ParameterDirection.Input)
-                                                                    , helper.CreateParameter("ORDERNO"              , Convert.ToString(this.grid1.ActiveRow.Cells["ORDERNO"].Value)         , DbType.String, ParameterDirection.Input)
-                                                                    , helper.CreateParameter("ITEMCODE"             , Convert.ToString(this.grid1.ActiveRow.Cells["ITEMCODE"].Value)        , DbType.String, ParameterDirection.Input)
-                                                                    , helper.CreateParameter("UNITCODE"             , Convert.ToString(this.grid1.ActiveRow.Cells["IUNITCODE"].Value)       , DbType.String, ParameterDirection.Input)
-                                                                    , helper.CreateParameter("STATUS"               , sStatus                                                               , DbType.String, ParameterDirection.Input)
-                                                                    );
+                                      , helper.CreateParameter("PLANTCODE", "1000", DbType.String, ParameterDirection.Input)
+                                      , helper.CreateParameter("WORKCENTERCODE", Convert.ToString(this.grid1.ActiveRow.Cells["WORKCENTERCODE"].Value), DbType.String, ParameterDirection.Input)
+                                      , helper.CreateParameter("ORDERNO", Convert.ToString(this.grid1.ActiveRow.Cells["ORDERNO"].Value), DbType.String, ParameterDirection.Input)
+                                      , helper.CreateParameter("ITEMCODE", Convert.ToString(this.grid1.ActiveRow.Cells["ITEMCODE"].Value), DbType.String, ParameterDirection.Input)
+                                      , helper.CreateParameter("UNITCODE", Convert.ToString(this.grid1.ActiveRow.Cells["UNITCODE"].Value), DbType.String, ParameterDirection.Input)
+                                      , helper.CreateParameter("STATUS", sStatus, DbType.String, ParameterDirection.Input)
+                                      );
+                if (helper.RSCODE == "S")
+                {
+                    helper.Commit();
+                    ShowDialog("정상적으로 등록 되었습니다.", DC00_WinForm.DialogForm.DialogType.OK);
+                }
+                else
+                {
+                    helper.Rollback();
+                    ShowDialog("데이터 등록 중 오류가 발생 하였습니다." + helper.RSMSG, DC00_WinForm.DialogForm.DialogType.OK);
+                }
             }
             catch (Exception ex)
             {
                 helper.Rollback();
                 ShowDialog(ex.ToString());
+            }
+            finally
+            {
+                helper.Close();
+            }
+        }
+
+        private void btnProduct_Click(object sender, EventArgs e)
+        {
+            // 생산실적 등록
+            if (this.grid1.ActiveRow == null)
+            {
+                ShowDialog("작업지시를 선택 하세요.", DC00_WinForm.DialogForm.DialogType.OK);
+                return;
+            }
+            double dProdQty = 0; // 누적 양품수량
+            double dErrorQty = 0; // 누적 불량수량
+            double dTProdQty = 0; // 누적 양품수량
+            double dTErrorQty = 0; // 누적 불량수량
+            double dOrderQty = 0; // 작업지시 수량
+            double dInQty = 0; // 투입 LOT 잔량
+
+            string sProdQty = Convert.ToString(this.grid1.ActiveRow.Cells["PRODQTY"].Value).Replace(",", "");
+            double.TryParse(sProdQty, out dProdQty);
+
+            string sBadQty = Convert.ToString(this.grid1.ActiveRow.Cells["BADQTY"].Value).Replace(",", "");
+            double.TryParse(sBadQty, out dErrorQty);
+
+            string sTProdQty = Convert.ToString(txtProduct.Text);
+            double.TryParse(sTProdQty, out dTProdQty);
+
+            string sTBadQty = Convert.ToString(txtBad.Text);
+            double.TryParse(sTBadQty, out dTErrorQty);
+
+            string sOrderQty = Convert.ToString(this.grid1.ActiveRow.Cells["PLANQTY"].Value).Replace(",", "");
+            double.TryParse(sOrderQty, out dOrderQty);
+
+            string sInQty = Convert.ToString(this.grid1.ActiveRow.Cells["COMPONENTQTY"].Value).Replace(",", "");
+            double.TryParse(sInQty, out dInQty);
+
+            if (dInQty == 0)
+            {
+                ShowDialog("투입한 LOT 이 존재하지 않습니다.", DC00_WinForm.DialogForm.DialogType.OK);
+                return;
+            }
+
+            if ((dTProdQty + dTErrorQty) == 0)
+            {
+                ShowDialog("실적 수량을 입력하세요", DC00_WinForm.DialogForm.DialogType.OK);
+                return;
+            }
+
+            if (dOrderQty < (dProdQty + dErrorQty) + (dTProdQty + dTErrorQty))
+            {
+                ShowDialog("생산 수량 및 불량 수량의 합계가 지시수량보다 많습니다.", DC00_WinForm.DialogForm.DialogType.OK);
+                return;
+            }
+
+            DBHelper helper = new DBHelper("", true);
+            try
+            {
+                helper.ExecuteNoneQuery("11PP_ActureOutput_U2", CommandType.StoredProcedure
+                                                              , helper.CreateParameter("PLANTCODE", "1000", DbType.String, ParameterDirection.Input)
+                                                              , helper.CreateParameter("WORKCENTERCODE", Convert.ToString(this.grid1.ActiveRow.Cells["WORKCENTERCODE"].Value), DbType.String, ParameterDirection.Input)
+                                                              , helper.CreateParameter("ORDERNO", Convert.ToString(this.grid1.ActiveRow.Cells["ORDERNO"].Value), DbType.String, ParameterDirection.Input)
+                                                              , helper.CreateParameter("ITEMCODE", Convert.ToString(this.grid1.ActiveRow.Cells["ITEMCODE"].Value), DbType.String, ParameterDirection.Input)
+                                                              , helper.CreateParameter("UNITCODE", Convert.ToString(this.grid1.ActiveRow.Cells["UNITCODE"].Value), DbType.String, ParameterDirection.Input)
+                                                              , helper.CreateParameter("PRODQTY", dTProdQty, DbType.String, ParameterDirection.Input)
+                                                              , helper.CreateParameter("ERRORQTY", dTErrorQty, DbType.String, ParameterDirection.Input)
+                                                              , helper.CreateParameter("MATLOTNO", Convert.ToString(this.grid1.ActiveRow.Cells["MATLOTNO"].Value), DbType.String, ParameterDirection.Input)
+                                                              , helper.CreateParameter("CITEMCODE", Convert.ToString(this.grid1.ActiveRow.Cells["COMPONENT"].Value), DbType.String, ParameterDirection.Input)
+                                                              , helper.CreateParameter("CUNITCODE", Convert.ToString(this.grid1.ActiveRow.Cells["CUNITCODE"].Value), DbType.String, ParameterDirection.Input)
+                                                              );
+                if (helper.RSCODE != "S")
+                {
+                    helper.Rollback();
+                    ShowDialog(helper.RSMSG);
+                    return;
+                }
+                helper.Commit();
+                ShowDialog("생산실적 등록을 완료 하였습니다.", DialogForm.DialogType.OK);
+                DoInquire();
+                //txtInLotNo.Text = "";
+                txtProduct.Text = "";
+                txtBad.Text = "";
+            }
+            catch (Exception ex)
+            {
+                helper.Rollback();
+                ShowDialog(ex.ToString(), DC00_WinForm.DialogForm.DialogType.OK);
+            }
+            finally
+            {
+                helper.Close();
+            }
+        }
+
+        private void btnOrderClose_Click(object sender, EventArgs e)
+        {
+            // 작업지시 종료
+
+            if (grid1.Rows.Count == 0) return;
+            if (grid1.ActiveRow == null) return;
+            if (Convert.ToString(grid1.ActiveRow.Cells["MATLOTNO"].Value) != "")
+            {
+                ShowDialog("LOT 투입 취소 후 진행하세요.", DC00_WinForm.DialogForm.DialogType.OK);
+                return;
+            }
+            // 가동 일 경우 종료 안되도록 확인
+            if (Convert.ToString(grid1.ActiveRow.Cells["WORKSTATUSCODE"].Value) == "R")
+            {
+                ShowDialog("비가동 등록 후 진행 하세요.", DC00_WinForm.DialogForm.DialogType.OK);
+                return;
+            }
+            DBHelper helper = new DBHelper("", true);
+            try
+            {
+                helper.ExecuteNoneQuery("11PP_ActureOutput_U3", CommandType.StoredProcedure
+                                                                    , helper.CreateParameter("PLANTCODE", plantCode, DbType.String, ParameterDirection.Input)
+                                                                    , helper.CreateParameter("WORKCENTERCODE", Convert.ToString(this.grid1.ActiveRow.Cells["WORKCENTERCODE"].Value), DbType.String, ParameterDirection.Input)
+                                                                    , helper.CreateParameter("ORDERNO", Convert.ToString(this.grid1.ActiveRow.Cells["ORDERNO"].Value), DbType.String, ParameterDirection.Input)
+                                                                    );
+                if (helper.RSCODE != "S")
+                {
+                    helper.Rollback();
+                    ShowDialog(helper.RSMSG);
+                    return;
+                }
+                helper.Commit();
+                ShowDialog("상태 등록을 완료 하였습니다.", DialogForm.DialogType.OK);
+                DoInquire();
+
+                txtProduct.Text = "";
+                txtBad.Text = "";
+            }
+            catch (Exception ex)
+            {
+                helper.Rollback();
+                ShowDialog(ex.ToString(), DC00_WinForm.DialogForm.DialogType.OK);
+
             }
             finally
             {

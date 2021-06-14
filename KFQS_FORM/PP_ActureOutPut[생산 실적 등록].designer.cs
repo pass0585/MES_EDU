@@ -40,8 +40,8 @@
             Infragistics.Win.Appearance appearance58 = new Infragistics.Win.Appearance();
             Infragistics.Win.Appearance appearance59 = new Infragistics.Win.Appearance();
             Infragistics.Win.Appearance appearance61 = new Infragistics.Win.Appearance();
-            Infragistics.Win.UltraWinSchedule.CalendarCombo.DateButton dateButton3 = new Infragistics.Win.UltraWinSchedule.CalendarCombo.DateButton();
-            Infragistics.Win.UltraWinSchedule.CalendarCombo.DateButton dateButton4 = new Infragistics.Win.UltraWinSchedule.CalendarCombo.DateButton();
+            Infragistics.Win.UltraWinSchedule.CalendarCombo.DateButton dateButton5 = new Infragistics.Win.UltraWinSchedule.CalendarCombo.DateButton();
+            Infragistics.Win.UltraWinSchedule.CalendarCombo.DateButton dateButton6 = new Infragistics.Win.UltraWinSchedule.CalendarCombo.DateButton();
             Infragistics.Win.Appearance appearance2 = new Infragistics.Win.Appearance();
             this.grid1 = new DC00_Component.Grid(this.components);
             this.ultraLabel1 = new Infragistics.Win.Misc.UltraLabel();
@@ -250,7 +250,7 @@
             // 
             // dtpEnd
             // 
-            this.dtpEnd.DateButtons.Add(dateButton3);
+            this.dtpEnd.DateButtons.Add(dateButton5);
             this.dtpEnd.Location = new System.Drawing.Point(761, 24);
             this.dtpEnd.Name = "dtpEnd";
             this.dtpEnd.NonAutoSizeHeight = 26;
@@ -267,7 +267,7 @@
             // 
             // dtpStart
             // 
-            this.dtpStart.DateButtons.Add(dateButton4);
+            this.dtpStart.DateButtons.Add(dateButton6);
             this.dtpStart.Location = new System.Drawing.Point(625, 24);
             this.dtpStart.Name = "dtpStart";
             this.dtpStart.NonAutoSizeHeight = 26;
@@ -313,11 +313,12 @@
             // 
             // btnOrderClose
             // 
-            this.btnOrderClose.Location = new System.Drawing.Point(1115, 177);
+            this.btnOrderClose.Location = new System.Drawing.Point(1115, 173);
             this.btnOrderClose.Name = "btnOrderClose";
             this.btnOrderClose.Size = new System.Drawing.Size(154, 35);
             this.btnOrderClose.TabIndex = 29;
             this.btnOrderClose.Text = "작업 지시 종료";
+            this.btnOrderClose.Click += new System.EventHandler(this.btnOrderClose_Click);
             // 
             // btnProduct
             // 
@@ -326,6 +327,7 @@
             this.btnProduct.Size = new System.Drawing.Size(154, 35);
             this.btnProduct.TabIndex = 28;
             this.btnProduct.Text = "생산 실적 등록";
+            this.btnProduct.Click += new System.EventHandler(this.btnProduct_Click);
             // 
             // ultraLabel10
             // 

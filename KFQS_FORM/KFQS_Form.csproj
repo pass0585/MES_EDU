@@ -82,6 +82,18 @@
     <Compile Include="MM_STockMM_M[자재 재고관리].designer.cs">
       <DependentUpon>MM_STockMM_M[자재 재고관리].cs</DependentUpon>
     </Compile>
+    <Compile Include="PP_StockHALB[재공 재고 조회].cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP_StockHALB[재공 재고 조회].designer.cs">
+      <DependentUpon>PP_StockHALB[재공 재고 조회].cs</DependentUpon>
+    </Compile>
+    <Compile Include="PP_STockHALB_M[재공 재고조회].cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP_STockHALB_M[재공 재고조회].designer.cs">
+      <DependentUpon>PP_STockHALB_M[재공 재고조회].cs</DependentUpon>
+    </Compile>
     <Compile Include="PP_StockPP[공정 창고 재고 관리].cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,11 +106,35 @@
     <Compile Include="MM_StockOut_M[자재 출고 등록].designer.cs">
       <DependentUpon>MM_StockOut_M[자재 출고 등록].cs</DependentUpon>
     </Compile>
+    <Compile Include="PP_WCTRunStopList[작업장 비가동 현황 및 사유관리].cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP_WCTRunStopList[작업장 비가동 현황 및 사유관리].designer.cs">
+      <DependentUpon>PP_WCTRunStopList[작업장 비가동 현황 및 사유관리].cs</DependentUpon>
+    </Compile>
+    <Compile Include="PP_WCTRunStopList_M[작업장 비가동 현황 및 사유관리].cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP_WCTRunStopList_M[작업장 비가동 현황 및 사유관리].designer.cs">
+      <DependentUpon>PP_WCTRunStopList_M[작업장 비가동 현황 및 사유관리].cs</DependentUpon>
+    </Compile>
+    <Compile Include="PP_WorkerPerProd[작업자 일별 생산 실적].cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP_WorkerPerProd[작업자 일별 생산 실적].designer.cs">
+      <DependentUpon>PP_WorkerPerProd[작업자 일별 생산 실적].cs</DependentUpon>
+    </Compile>
     <Compile Include="PP_STockPP_M[공정 재고관리].cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="PP_STockPP_M[공정 재고관리].designer.cs">
       <DependentUpon>PP_STockPP_M[공정 재고관리].cs</DependentUpon>
+    </Compile>
+    <Compile Include="PP_WorkerPerProd_M[작업자 일별 생산 실적].cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP_WorkerPerProd_M[작업자 일별 생산 실적].designer.cs">
+      <DependentUpon>PP_WorkerPerProd_M[작업자 일별 생산 실적].cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
@@ -182,15 +218,31 @@
     <EmbeddedResource Include="MM_STockMM_M[자재 재고관리].resx">
       <DependentUpon>MM_STockMM_M[자재 재고관리].cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PP_StockHALB[재공 재고 조회].resx">
+      <DependentUpon>PP_StockHALB[재공 재고 조회].cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP_STockHALB_M[재공 재고조회].resx">
+      <DependentUpon>PP_STockHALB_M[재공 재고조회].cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PP_StockPP[공정 창고 재고 관리].resx">
       <DependentUpon>PP_StockPP[공정 창고 재고 관리].cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MM_StockOut_M[자재 출고 등록].resx">
       <DependentUpon>MM_StockOut_M[자재 출고 등록].cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PP_WCTRunStopList[작업장 비가동 현황 및 사유관리].resx">
+      <DependentUpon>PP_WCTRunStopList[작업장 비가동 현황 및 사유관리].cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP_WCTRunStopList_M[작업장 비가동 현황 및 사유관리].resx">
+      <DependentUpon>PP_WCTRunStopList_M[작업장 비가동 현황 및 사유관리].cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP_WorkerPerProd[작업자 일별 생산 실적].resx">
+      <DependentUpon>PP_WorkerPerProd[작업자 일별 생산 실적].cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PP_STockPP_M[공정 재고관리].resx">
       <DependentUpon>PP_STockPP_M[공정 재고관리].cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PP_WorkerPerProd_M[작업자 일별 생산 실적].resx" />
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

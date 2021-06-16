@@ -161,6 +161,12 @@
     <Compile Include="Report_LotBacode.Designer.cs">
       <DependentUpon>Report_LotBacode.cs</DependentUpon>
     </Compile>
+    <Compile Include="Report_LotBacodeFERT.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report_LotBacodeFERT.designer.cs">
+      <DependentUpon>Report_LotBacodeFERT.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="POP_TBM0100[품목].resx">
@@ -191,6 +197,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Report_LotBacode.resx">
       <DependentUpon>Report_LotBacode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report_LotBacodeFERT.resx">
+      <DependentUpon>Report_LotBacodeFERT.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

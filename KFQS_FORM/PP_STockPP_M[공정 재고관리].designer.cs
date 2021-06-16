@@ -110,7 +110,7 @@
             this.cboPlantCode.Font = new System.Drawing.Font("맑은 고딕", 10F);
             this.cboPlantCode.Location = new System.Drawing.Point(57, 22);
             this.cboPlantCode.Name = "cboPlantCode";
-            this.cboPlantCode.Size = new System.Drawing.Size(145, 27);
+            this.cboPlantCode.Size = new System.Drawing.Size(145, 32);
             this.cboPlantCode.TabIndex = 0;
             // 
             // grid1
@@ -229,19 +229,19 @@
             // 
             // ultraButton1
             // 
-            this.ultraButton1.Location = new System.Drawing.Point(920, 13);
+            this.ultraButton1.Location = new System.Drawing.Point(885, 7);
             this.ultraButton1.Name = "ultraButton1";
-            this.ultraButton1.Size = new System.Drawing.Size(152, 44);
+            this.ultraButton1.Size = new System.Drawing.Size(104, 44);
             this.ultraButton1.TabIndex = 188;
             this.ultraButton1.Text = "LOT 발행";
-            //this.ultraButton1.Click += new System.EventHandler(this.ultraButton1_Click);
+            this.ultraButton1.Click += new System.EventHandler(this.ultraButton1_Click);
             // 
             // cboItemType
             // 
             this.cboItemType.Font = new System.Drawing.Font("맑은 고딕", 10F);
             this.cboItemType.Location = new System.Drawing.Point(318, 22);
             this.cboItemType.Name = "cboItemType";
-            this.cboItemType.Size = new System.Drawing.Size(251, 27);
+            this.cboItemType.Size = new System.Drawing.Size(251, 32);
             this.cboItemType.TabIndex = 189;
             // 
             // sLabel1

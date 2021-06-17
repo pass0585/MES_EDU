@@ -210,7 +210,7 @@ namespace KFQS_Form
                                             , helper.CreateParameter("CARNO"        , Convert.ToString(txtCarNo.Value)              , DbType.String, ParameterDirection.Input)
                                             , helper.CreateParameter("MAKER"        , LoginInfo.UserID                              , DbType.String, ParameterDirection.Input)
                                             , helper.CreateParameter("SHIPQTY"      , Convert.ToString(dt.Rows[i]["STOCKQTY"])      , DbType.String, ParameterDirection.Input)
-                                            , helper.CreateParameter("I"            , i                                       , DbType.String, ParameterDirection.Input)
+                                            , helper.CreateParameter("I"            , i                                             , DbType.String, ParameterDirection.Input)
                                             );
                     if (helper.RSCODE != "S")
                     {

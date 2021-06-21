@@ -198,6 +198,8 @@ namespace KFQS_Form
                             break;
                         case DataRowState.Modified:
                             #region 수정 
+                            if (Convert.ToString(drRow["CHK"]) != "1") continue;
+
                             helper.ExecuteNoneQuery("11WM_StockOutWM_U1", CommandType.StoredProcedure
                                                   , helper.CreateParameter("PLANTCODE", Convert.ToString(drRow["PLANTCODE"]), DbType.String, ParameterDirection.Input)
                                                   , helper.CreateParameter("SHIPNO", Convert.ToString(drRow["SHIPNO"]), DbType.String, ParameterDirection.Input)

@@ -85,10 +85,11 @@ namespace KFQS_Form
             Connect = new SqlConnection(strConn);
             Connect.Open();
 
-            SqlDataAdapter adapter = new SqlDataAdapter("select INSPCODE   AS CODE_ID , INSPDETAIL AS CODE_NAME from TB_4_INSPMaster", Connect);
+            SqlDataAdapter adapter = new SqlDataAdapter("SELECT INSPCODE  AS CODE_ID , INSPDETAIL AS CODE_NAME from TB_4_INSPMaster", Connect);
             DataTable AtTemp = new DataTable();
             adapter.Fill(AtTemp);
-            UltraGridUtil.SetComboUltraGrid(this.grid2, "INSPCODE", AtTemp, "CODE_NAME", "CODE_ID");
+            UltraGridUtil.SetComboUltraGrid(this.grid2, "INSPCODE", AtTemp, "CODE_ID", "CODE_ID");
+            UltraGridUtil.SetComboUltraGrid(this.grid2, "INSPDETAIL", AtTemp, "CODE_NAME", "CODE_NAME");
 
 
 
@@ -258,10 +259,26 @@ namespace KFQS_Form
             }
         }
 
-             
+        private void grid2_AfterCellActivate(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void grid2_CellListSelect(object sender, CellEventArgs e)
+        {   
+
+            string INSPCODE = string.Empty;
+            INSPCODE = Convert.ToString(this.grid2.ActiveRow.Cells["INSPCODE"].Value);
+
+            SqlDataAdapter adapter2 = new SqlDataAdapter("SELECT INSPDETAIL  AS CODE_NAME  from TB_4_INSPMaster WHERE INSPCODE = '" + INSPCODE + "'", Connect);
+            DataTable AtTemp2 = new DataTable();
+
+            /*this.grid2.ActiveRow.Cells["INSPDETAIL"].Value = */
+            UltraGridUtil.SetComboUltraGrid(this.grid2, "INSPDETAIL", AtTemp2, "CODE_NAME", "CODE_NAME");
+        }
     }
-    
 }
+
 
 
 

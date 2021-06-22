@@ -308,6 +308,8 @@
             this.grid2.UpdateMode = Infragistics.Win.UltraWinGrid.UpdateMode.OnCellChange;
             this.grid2.UseFlatMode = Infragistics.Win.DefaultableBoolean.True;
             this.grid2.UseOsThemes = Infragistics.Win.DefaultableBoolean.False;
+            this.grid2.AfterCellActivate += new System.EventHandler(this.grid2_AfterCellActivate);
+            this.grid2.CellListSelect += new Infragistics.Win.UltraWinGrid.CellEventHandler(this.grid2_CellListSelect);
             // 
             // txtItemName_H
             // 
